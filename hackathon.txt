@@ -18,10 +18,11 @@ Please note that this is not an exhaustive list of all the rules. More rules and
 - All code(**) will have to be written DURING the event.
 - All code(**) must be written by your team and your team only. This means no generative AI or asking a "friend" to write to code for you.
 - The source code must be submitted BEFORE the deadline. SEE the GitHub for more info
-- NO EXTERNAL LIBRARIES are allowed, including possibly <insert your favorite language>'s standard library. THE ONLY EXCEPTIONS are the ones on the GitHub
+- NO EXTERNAL LIBRARIES EXCEPT the ones listed on the GitHub.
+    - Read this rule carefully, only a few standard libraries are allowed
 - NO CHEATING
 
-Breaking any of these rules will result in the immediate disqualification of the entire team, possibly including other punishments such as:
+Breaking any of these rules will result in the immediate disqualification of the entire team. In severe cases, additional punishments may be added:
 - community service
 - exclusion from future events
 - ...
