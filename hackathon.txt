@@ -1,0 +1,30 @@
+Let's build a chess bot!
+
+There will be 2 leagues you can participate in:
+
+Core:
+Recommended for people building their first chessbot. In this league the "only" thing you'll have to is build the evaluation function for for chessbot, which determines which moves is the best.
+
+Advanced:
+Recommened for people who've have experience with programming chessbots and/or are in for a challenge. You'll have to do everything from scratch(*).
+
+Important rules:
+Please note that this is not an exhaustive list of all the rules. More rules and other information can be found on the github page.
+
+- Team sizes:
+    Core:       max 3
+    Advanced:   max 2
+- All team members must be Codam students.
+- All code(**) will have to be written DURING the event.
+- All code(**) must be written by your team and your team only. This means no generative AI or asking a "friend" to write to code for you.
+- The source code must be submitted BEFORE the deadline. SEE the github for more info
+- NO EXTERNAL LIBARIES are allowed, including possibly <insert your favorite language>'s standard library. THE ONLY EXCEPTIONS are the ones on the github
+- NO CHEATING
+
+Breaking any of these rules will result in the immediate disqualification of the entire team, possibly including other punishments such as:
+- community service
+- exclusion from future events
+- ...
+
+*=You'll be allowed to use a third party library for parsing FENs etc. Please see the github page for the allowed libraries
+**=This, ofcourse, excludes the allowed libraries
