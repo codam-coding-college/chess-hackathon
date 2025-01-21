@@ -60,8 +60,8 @@ languages. This means that you're allowed to for example:
 - POSIX syscalls and their wrappers
 
 *Note: Some syscallls will be disabled (fork, clone, etc.) and/or limited during
-the tournament, see the VM info file for more information about the enviroment
-the bots will be in.
+the tournament (mmap, (s)brk, etc.), see the VM info file for more information
+about the enviroment the bots will be in.
 
 ### Assembly (really?)
 - C standard library, from ANSI C to C23
