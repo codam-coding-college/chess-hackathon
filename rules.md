@@ -56,21 +56,25 @@ languages. This means that you're allowed to for example:
 - Call Rust standard library functions from python
 - ...
 
+### General
+- POSIX syscalls and their wrappers
+
+*Note: Some syscallls will be disabled (fork, clone, etc.) and/or limited during
+the tournament, see the VM info file for more information about the enviroment
+the bots will be in.
+
 ### Assembly (really?)
 - C standard library, from ANSI C to C23
-- POSIX syscalls and their wrappers
 
 ### C
 - C standard library, from ANSI C to C23
 - GNU C standard library extensions
 - GCC and clang extensions/compiler built-ins
-- POSIX syscalls and their wrappers
 
 ### C++
 - C++ standard library, from C++98 to C++23
 - GNU C++ standard library extensions
 - GCC and clang extensions/compiler built-ins
-- POSIX syscalls and their wrappers
 
 ### Rust
 - Rust standard library
