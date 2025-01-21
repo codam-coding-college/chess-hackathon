@@ -4,11 +4,11 @@ This file describes the rules in depth.
 ## Important notes
 Please keep in mind that we (the organizers) are organizing this hackathon to
 have fun, and want other people to have fun as well. Please don't start rule
-lawyering, trying to find loopholes or messing around.
+lawyering, trying to find loopholes or just messing around.
 
-Although we have listed these rules here for clarity, please keep in mind that
-the idea of the hackathon is to build a chess-bot completely on your own. Please
-use common sense.
+Also, although we have listed these rules here for clarity, please keep in mind
+that the idea of the hackathon is to build a chess-bot completely on your own.
+*Please use common sense.*
 
 ## Questions?
 Is a rule unclear, or if you would just like to check if you understood it
@@ -23,29 +23,34 @@ will be the only one that determines your placing in your league.
 
 ### Team rules
 - Team sizes:
-    Core:       max 3
-    Advanced:   max 2
+    **Core:**       max 3
+    **Advanced:**   max 2
 - All team members must be Codam students
 
 ### General code rules
 - All code must be written during the event. This means no preparing code in
 advance.
 - All code must be written by your team and your team only. This means no
-generative AI or asking a "friend" to write the code for you.
+generative AI (i.e. ChatGPT, Copilot etc.)  or asking a "friend" to write the
+code for you.
 - Unless explicitly allowed, the usage of external libraries is forbidden. This
 included "standard" libraries included in some programming languages. See
 "Allowed libraries" for more info
 - No execve-ing etc. of code that does not adhere to the rules.
 - No network code (the VM will not have a internet connection anyway)
+- No trying to exploit any vulnerabilities in any of the programs used in the
+tournament (VM, tournament program, your opponents program, etc.)
 
 
 ## Allowed libraries/external functions
 
-Note that, although these are categorized by their language, this is just so one
-can quickly check for a single languages, you are allowed to mix languages and
-use their allowed libraries, for example:
-- Rust code calling C standard library functions
--
+Please note that, although these are categorized by their language, you are
+allowed to call any of the allowed library functions from any of the allowed
+languages. This means that you're allowed to for example:
+- Call C standard library functions from Rust
+- Call C++ standard library functions from C
+- Call Rust standard library functions from python
+- ...
 
 ### Assembly (really?)
 - C standard library, from ANSI C to C23
