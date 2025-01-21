@@ -58,7 +58,7 @@ languages. This means that you're allowed to for example:
 - ...
 
 ### General
-- POSIX syscalls and their wrappers
+- Linux syscalls and their wrappers
 
 *Note: Some syscalls will be disabled (fork, clone, etc.) and/or limited during
 the tournament (mmap, (s)brk, etc.), see the VM info file for more information
