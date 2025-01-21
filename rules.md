@@ -2,12 +2,13 @@
 This file describes the rules in depth.
 
 ## Important notes
-Please keep in mind that we (the organizers) are organizing this hackathon to
-have fun, and want other people to have fun as well. Please don't start rule
-lawyering, trying to find loopholes or just messing around.
+Please keep in mind that we, the organizers, are organizing this hackathon to
+have fun, and want other people to have fun as well. We put in our own free time
+into organizing this, so please don't start rule lawyering, trying to find
+loopholes or just generally messing around.
 
 Also, although we have listed these rules here for clarity, please keep in mind
-that the idea of the hackathon is to build a chess-bot completely on your own.
+that the idea of the hackathon is to build a chess-bot **completely** on your own.
 *Please use common sense.*
 
 ## Questions?
@@ -59,9 +60,9 @@ languages. This means that you're allowed to for example:
 ### General
 - POSIX syscalls and their wrappers
 
-*Note: Some syscallls will be disabled (fork, clone, etc.) and/or limited during
+*Note: Some syscalls will be disabled (fork, clone, etc.) and/or limited during
 the tournament (mmap, (s)brk, etc.), see the VM info file for more information
-about the enviroment the bots will be in.
+about the environment the bots will be in.
 
 ### Assembly (really?)
 - C standard library, from ANSI C to C23
