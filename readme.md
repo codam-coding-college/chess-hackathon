@@ -51,5 +51,6 @@ generative AI or asking a "friend" to write the code for you.
 allowed. This includes "standard libraries" which are included in some
 programming languages. See the GitHub page for more info
 
-\*=There are some libraries (like parsing FENs etc.) that you'll be allowed to
-use, please see the GitHub page for more info.
+\*=There are some libraries (like standard libraries, libraries for parsing
+FENs, etc.) that you'll be allowed to use, please see the GitHub page for more
+info.
