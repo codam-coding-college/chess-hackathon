@@ -1,0 +1,72 @@
+# Rules
+This file describes the rules in depth.
+
+## Important notes
+Please keep in mind that we (the organizers) are organizing this hackathon to
+have fun, and want other people to have fun as well. Please don't start rule
+lawyering, trying to find loopholes or messing around.
+
+Although we have listed these rules here for clarity, please keep in mind that
+the idea of the hackathon is to build a chess-bot completely on your own. Please
+use common sense.
+
+## Questions?
+Is a rule unclear, or if you would just like to check if you understood it
+properly. Feel free to send the organizers a message on slack or approach them
+in person.
+
+### General rules
+- The source code, including a working Makefile, must be submitted via the form
+in the expected format. Please see the "Submitting" section for more info.
+- You are allowed to submit up to 3 bots max per team. The highest scoring bot
+will be the only one that determines your placing in your league.
+
+### Team rules
+- Team sizes:
+    Core:       max 3
+    Advanced:   max 2
+- All team members must be Codam students
+
+### General code rules
+- All code must be written during the event. This means no preparing code in
+advance.
+- All code must be written by your team and your team only. This means no
+generative AI or asking a "friend" to write the code for you.
+- Unless explicitly allowed, the usage of external libraries is forbidden. This
+included "standard" libraries included in some programming languages. See
+"Allowed libraries" for more info
+- No execve-ing etc. of code that does not adhere to the rules.
+- No network code (the VM will not have a internet connection anyway)
+
+
+## Allowed libraries/external functions
+
+Note that, although these are categorized by their language, this is just so one
+can quickly check for a single languages, you are allowed to mix languages and
+use their allowed libraries, for example:
+- Rust code calling C standard library functions
+-
+
+### Assembly (really?)
+- C standard library, from ANSI C to C23
+- POSIX syscalls and their wrappers
+
+### C
+- C standard library, from ANSI C to C23
+- GNU C standard library extensions
+- GCC and clang extensions/compiler built-ins
+- POSIX syscalls and their wrappers
+
+### C++
+- C++ standard library, from C++98 to C++23
+- GNU C++ standard library extensions
+- GCC and clang extensions/compiler built-ins
+- POSIX syscalls and their wrappers
+
+### Rust
+- Rust standard library
+
+### Python
+- Python standard library
+- Numpy
+- Scipy
