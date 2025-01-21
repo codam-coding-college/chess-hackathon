@@ -40,8 +40,8 @@ Please note that this is not an exhaustive list of all the rules. More rules and
 other information can be found on the GitHub page.
 
 - Team sizes:
-	Core:		max 3
-	Advanced:	max 2
+	- **Core:**		max 3
+	- **Advanced:**	max 2
 - All team members must be Codam students.
 - All code(\*) will have to be written during the event.
 - All code(\*) must be written by your team and your team only. This means no
