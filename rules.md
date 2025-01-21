@@ -64,9 +64,6 @@ languages. This means that you're allowed to for example:
 the tournament (mmap, (s)brk, etc.), see the VM info file for more information
 about the environment the bots will be in.
 
-### Assembly (really?)
-- C standard library, from ANSI C to C23
-
 ### C
 - C standard library, from ANSI C to C23
 - GNU C standard library extensions
