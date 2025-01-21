@@ -23,8 +23,8 @@ will be the only one that determines your placing in your league.
 
 ### Team rules
 - Team sizes:
-    **Core:**       max 3
-    **Advanced:**   max 2
+    - **Core:**       max 3
+    - **Advanced:**   max 2
 - All team members must be Codam students
 
 Note: Although the leagues are called "Core" and "Advanced", these leagues are
