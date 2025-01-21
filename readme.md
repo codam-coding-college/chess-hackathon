@@ -1,4 +1,4 @@
-# Chess bot hackathon
+# Chess-bot hackathon
 Lets have fun and learn how to make a competitive chess-bot.
 
 ## Context
