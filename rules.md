@@ -24,8 +24,8 @@ will be the only one that determines your placing in your league.
 
 ### Team rules
 - Team sizes:
-    - **Core:**       max 3
-    - **Advanced:**   max 2
+    - **Core league:**       max 3
+    - **Advanced league:**   max 2
 - All team members must be Codam students
 
 Note: Although the leagues are called "Core" and "Advanced", these leagues are
@@ -39,7 +39,7 @@ advance.
 generative AI (i.e. ChatGPT, Copilot etc.)  or asking a "friend" to write the
 code for you.
 - Unless explicitly allowed, the usage of external libraries is forbidden. This
-included "standard" libraries included in some programming languages. See
+includes "standard" libraries included in some programming languages. See
 "Allowed libraries" for more info
 - No execve-ing etc. of code that does not adhere to the rules.
 - No network code (the VM will not have a internet connection anyway)
