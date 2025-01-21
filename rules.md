@@ -11,7 +11,7 @@ that the idea of the hackathon is to build a chess-bot completely on your own.
 *Please use common sense.*
 
 ## Questions?
-Is a rule unclear, or if you would just like to check if you understood it
+Is a rule unclear, or would you just like to check if you understood it
 properly. Feel free to send the organizers a message on slack or approach them
 in person.
 
@@ -26,6 +26,10 @@ will be the only one that determines your placing in your league.
     **Core:**       max 3
     **Advanced:**   max 2
 - All team members must be Codam students
+
+Note: Although the leagues are called "Core" and "Advanced", these leagues are
+**not** restricted to Codam Core students or Codam Advanced students. Feel free to
+enter whichever league you want.
 
 ### General code rules
 - All code must be written during the event. This means no preparing code in
