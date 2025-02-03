@@ -1,6 +1,11 @@
 # Rules
 This file describes the rules in depth.
 
+
+# WORK IN PROGRESS
+**This document is not finished and subject to change. Although the general
+content idea will stay the same, some details could change**
+
 ## Important notes
 Please keep in mind that we, the organizers, are organizing this hackathon to
 have fun, and want other people to have fun as well. We put in our own free time
@@ -24,13 +29,8 @@ will be the only one that determines your placing in your league.
 
 ### Team rules
 - Team sizes:
-    - **Core league:**       max 3
-    - **Advanced league:**   max 2
-- All team members must be Codam students
-
-Note: Although the leagues are called "Core" and "Advanced", these leagues are
-**not** restricted to Codam Core students or Codam Advanced students. Feel free to
-enter whichever league you want.
+    - **Minor league:**       max 3 Codam students
+    - **Major league:**   max 2 Codam students and/or alumni
 
 ### General code rules
 - All code must be written during the event. This means no preparing code in
@@ -42,7 +42,7 @@ code for you.
 includes "standard" libraries included in some programming languages. See
 "Allowed libraries" for more info
 - No execve-ing etc. of code that does not adhere to the rules.
-- No network code (the VM will not have a internet connection anyway)
+- No networking code
 - No trying to exploit any vulnerabilities in any of the programs used in the
 tournament (VM, tournament program, your opponents program, etc.)
 
