@@ -57,3 +57,10 @@ FENs, etc.) and boilerplate code that you'll be allowed to use, please see
 the GitHub page for more info.
 \*\*=The minor league will be allowed to use a chess-bot boilerplate provided by
 us.
+
+## Other info:
+- [Rules](https://github.com/codam-coding-college/chess-hackathon/blob/master/rules.md)
+- Environment (Under construction)
+- Submitting (Under construction)
+- Minor league allowed code (Under construction)
+- Resources (Under construction)
