@@ -9,6 +9,13 @@ and do.
 In this hackathon, you'll build a chess-bot that is capable of playing standard
 chess, and at the end, have them compete against each other.
 
+## Other info:
+- [Rules](https://github.com/codam-coding-college/chess-hackathon/blob/master/rules.md)
+- Environment (Under construction)
+- Submitting (Under construction)
+- Minor league allowed code (Under construction)
+- Resources (Under construction)
+
 ## Prizes
 1st place in each league:
 - The title "Grandmaster" on intra
@@ -57,10 +64,3 @@ FENs, etc.) and boilerplate code that you'll be allowed to use, please see
 the GitHub page for more info.
 \*\*=The minor league will be allowed to use a chess-bot boilerplate provided by
 us.
-
-## Other info:
-- [Rules](https://github.com/codam-coding-college/chess-hackathon/blob/master/rules.md)
-- Environment (Under construction)
-- Submitting (Under construction)
-- Minor league allowed code (Under construction)
-- Resources (Under construction)
