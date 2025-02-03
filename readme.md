@@ -12,15 +12,15 @@ chess, and at the end, have them compete against each other.
 ## Prizes
 1st place in each league:
 - The title "Grandmaster" on intra
-- A hoodie
-- A trophy
-- A bunch of coalition points (TBD)
+- A Codam hoodie per teammate
+- A trophy for the winning team
+- 10k coalition points per teammate for the coalition they represent
 - Bragging rights!
 
 2nd place in each league:
 - The title "International master" on intra
-- A pair of socks
-- A bunch of coalition points (TBD)
+- A pair of socks per teammate
+- 5k coalition points per teammate for the coalition they represent
 - Bragging rights!
 
 ## Leagues
