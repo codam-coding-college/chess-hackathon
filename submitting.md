@@ -1,5 +1,5 @@
 # Submitting
-*** PLEASE CAREFULLY READ THIS ENTIRE FILE!!! ***
+***PLEASE CAREFULLY READ THIS ENTIRE FILE!!!***
 
 Please make sure to properly submit your bot(s) to avoid any trouble during the
 tournament. ***Your bot may be disqualified if you do not properly turn it
