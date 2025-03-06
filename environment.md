@@ -1,13 +1,10 @@
 # Environment
 
-# WORK IN PROGRESS
-**This document is not finished and subject to change. Although the general
-content idea will stay the same, some details could change**
-
 ## System details
 
-**Do not try to use SIMD/AVX or any other CPU architecture extensions directly.
-This will probably just result in your program crashing. Rely on your compiler!**
+The tournament will be run on f1r3s1 through f1r3s20. If you want to use some
+kind of extensions, make sure that it works on these computers. Otherwise,
+ **rely on your compiler!**.
 
 ### System
 - Linux kernel version >= 5.15.0

@@ -45,6 +45,8 @@ includes "standard" libraries included in some programming languages. See
 - No networking code
 - No trying to exploit any vulnerabilities in any of the programs used in the
 tournament (VM, tournament program, your opponents program, etc.)
+- You must submit a commit at the end of the day of each day of the hackathon.
+(This is to see if someone is cheating)
 
 
 ## Allowed libraries/external functions

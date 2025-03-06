@@ -11,8 +11,9 @@ chess, and at the end, have them compete against each other.
 
 ## Other info:
 - [Rules](https://github.com/codam-coding-college/chess-hackathon/blob/master/rules.md)
-- Environment (Under construction)
-- Submitting (Under construction)
+- [Environment](https://github.com/codam-coding-college/chess-hackathon/blob/master/environment.md)
+- [Submitting](https://github.com/codam-coding-college/chess-hackathon/blob/master/submitting.md)
+- [Tournament](https://github.com/codam-coding-college/chess-hackathon/blob/master/tournament.md)
 - Minor league allowed code (Under construction)
 - Resources (Under construction)
 
