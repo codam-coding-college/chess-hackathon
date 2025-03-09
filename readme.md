@@ -14,8 +14,8 @@ chess, and at the end, have them compete against each other.
 - [Environment](https://github.com/codam-coding-college/chess-hackathon/blob/master/environment.md)
 - [Submitting](https://github.com/codam-coding-college/chess-hackathon/blob/master/submitting.md)
 - [Tournament](https://github.com/codam-coding-college/chess-hackathon/blob/master/tournament.md)
-- Minor league allowed code (Under construction)
-- Resources (Under construction)
+- [Minor league allowed code](https://github.com/codam-coding-college/chess-hackathon/tree/master/example)
+- [Resources](https://github.com/codam-coding-college/chess-hackathon/blob/master/resources.md)
 
 ## Prizes
 1st place in each league:

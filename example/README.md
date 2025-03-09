@@ -13,3 +13,7 @@ improve that :)
 Also the searching currently is limited to depth 4 in `src/search.h`, while this
 probably will work in the tournament (no guarantees). You probably will want to
 somehow keep track of the time spent searching.
+
+## Major League
+For people in the major league, you are allowed to copy only and absolutely only
+the code for handling UCI and FENs. See src/uci.c and src/position.c.
