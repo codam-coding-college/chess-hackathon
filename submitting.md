@@ -65,6 +65,19 @@ chessbot.tar.gz  your_chessbot_dir
 
 You then turn in the `chessbot.tar.gz`
 
+## Your engine
+Your engine MUST report your teamname as the engine names, and ALL your
+teammates their intra names as authors when responding to the `uci` command.
+
+An example:
+```
+$ ./chessbot
+uci
+id name A cool team name
+id author intraid1 intraid2 intraid3
+uciok
+```
+
 # Tips
 - **DO NOT USE -Werror**. You run the risk of your code not compiling when using
 a newer compiler version
@@ -72,3 +85,4 @@ a newer compiler version
 named `chessbot.tar.gz`?
 - Use the `tools/quick-check.sh` script to check if your archive is probably
 correct
+- Make sure that the `chessbot` program is executable
