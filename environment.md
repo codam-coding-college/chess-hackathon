@@ -11,4 +11,4 @@ kind of extensions, make sure that it works on these computers. Otherwise,
 
 ## Program limitations
 - 1 Thread
-- 2 GiB of memory
+- 1.5 GiB of memory
