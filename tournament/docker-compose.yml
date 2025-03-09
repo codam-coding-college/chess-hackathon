@@ -1,0 +1,26 @@
+services:
+  filesrv:
+    build: filesrv
+    env_file: .env
+    volumes:
+      - bots:/var/lib/jail/bots
+      - games:/var/lib/jail/games
+    restart: always
+  runner:
+    build: runner
+    env_file: .env
+    depends_on:
+      - filesrv
+    deploy:
+      replicas: 2
+    environment:
+      PC_IDX: "0"
+
+volumes:
+  bots:
+    driver: local
+    driver_opts:
+      type: 'none'
+      o: 'bind'
+      device: '/home/daan/src/mine/chess-hackathon/tournament/bots'
+  games:
