@@ -43,6 +43,12 @@ if [ '!' -x chessbot ]; then
 	error "No executable chessbot found"
 fi
 
-echo "uci" | ./chessbot | grep "id name" > /dev/null
+# echo "uci" | ./chessbot | grep "id name" > /dev/null
+
+cutechess-cli -engine cmd=/root/chess-hackathon/example/chessbot -engine cmd=./chessbot -each proto=uci tc=/5 book=/dev/null bookdepth=1 -rounds 1 -concurrency 1 -pgnout check.pgn
+
+if [ ! -s check.pgn ]; then
+	error "Could not run test game, the engine probably does not implement UCI properly"
+fi
 
 echo "OK"

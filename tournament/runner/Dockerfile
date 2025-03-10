@@ -27,7 +27,7 @@ RUN set -ex && \
 
 RUN set -ex \
 	&& apt update -y && apt upgrade -y \
-	&& apt install -y --no-install-recommends qtbase5-dev sudo
+	&& apt install -y --no-install-recommends qtbase5-dev sudo git
 
 COPY --from=rust /usr/local/cargo /usr/local/cargo
 COPY --from=rust /usr/local/rustup /usr/local/rustup
@@ -41,6 +41,10 @@ ENV CARGO_HOME=/usr/local/cargo
 RUN useradd --no-create-home -s /sbin/nologin --user-group bot \
 	&& useradd --no-create-home -s /bin/bash --user-group white \
 	&& useradd --no-create-home -s /bin/bash --user-group black
+
+RUN git clone --depth=1 https://github.com/codam-coding-college/chess-hackathon.git /root/chess-hackathon
+
+RUN make -C /root/chess-hackathon/example
 
 COPY . /root
 
