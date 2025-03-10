@@ -78,6 +78,7 @@ about the environment the bots will be in.
 
 ### Rust
 - Rust standard library
+- `rand`
 
 ### Python
 - Python standard library
