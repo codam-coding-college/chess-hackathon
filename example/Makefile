@@ -1,5 +1,5 @@
 NAME	:= chessbot
-CFLAGS	:= -Wall -Wextra -pedantic -std=c89 -fsanitize=address
+CFLAGS	:= -Wall -Wextra -pedantic -std=c89
 # CFLAGS := -Wall -Wextra -pedantic -std=c89 -O3 -flto -march=native
 
 HEADERS := include/uci.h include/perft.h include/search.h include/evaluate.h include/generate.h include/move.h include/position.h include/parse.h include/types.h
