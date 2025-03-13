@@ -29,7 +29,7 @@ cp "$1" "$DIR"
 
 cd "$DIR"
 
-tar -xf "$ARCHIVE"
+tar --owner=root --group=root --no-same-owner -xf "$ARCHIVE"
 
 if [ '!' -r Makefile ]; then
 	error "No readable Makefile in archive"
