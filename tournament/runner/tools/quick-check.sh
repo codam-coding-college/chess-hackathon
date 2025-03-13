@@ -10,4 +10,4 @@ else
 	FILE="$(basename $1)"
 fi
 
-docker run -v "$DIR:/src" hyxogen/codam-chessbot /root/chess-hackathon/tools/check.sh "/src/$FILE"
+docker run -v "$DIR:/src" hyxogen/codam-chessbot /tools/check.sh "/src/$FILE"

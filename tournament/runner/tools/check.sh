@@ -1,8 +1,10 @@
 #!/bin/bash
 
-set -e
+set -ex
 
 ARCHIVE="chessbot.tar.gz"
+
+chown -R root:root "/src/"
 
 eprintln() {
 	echo $@ >&2

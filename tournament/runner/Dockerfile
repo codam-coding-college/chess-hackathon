@@ -42,10 +42,11 @@ RUN useradd --no-create-home -s /sbin/nologin --user-group bot \
 	&& useradd --no-create-home -s /bin/bash --user-group white \
 	&& useradd --no-create-home -s /bin/bash --user-group black
 
-RUN git clone --depth=1 https://github.com/codam-coding-college/chess-hackathon.git /root/chess-hackathon
+RUN git clone --depth=2 https://github.com/codam-coding-college/chess-hackathon.git /root/chess-hackathon
 
 RUN make -C /root/chess-hackathon/example
 
 COPY . /root
+COPY tools/ /tools
 
 #ENTRYPOINT [ "/root/start.sh" ]
