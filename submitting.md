@@ -83,6 +83,6 @@ uciok
 a newer compiler version
 - Check the names of your files, is the bot named `chessbot`? Is the archive file
 named `chessbot.tar.gz`?
-- Use the `tournament/runnertools/quick-check.sh` script to check if your archive is probably
+- Use the `tournament/runner/tools/quick-check.sh` script to check if your archive is probably
 correct
 - Make sure that the `chessbot` program is executable
